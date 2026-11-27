@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@theme{--color-ink:#000;--color-cream:#EFE8D8;--color-brk:#D6322B;--color-sun:#F2C230;
+--font-display:"Anton",Impact,sans-serif;--font-sans:"Bricolage Grotesque",system-ui,sans-serif;--font-hand:"Caveat",cursive}
+html{background:#EFE8D8;color:#000;font-family:var(--font-sans)}
+body{overflow-x:hidden}
+.display{font-family:var(--font-display);text-transform:uppercase;line-height:.88;letter-spacing:-.01em}
+.hand{font-family:var(--font-hand);transform:rotate(-4deg);display:inline-block}
+a:focus-visible,button:focus-visible{outline:3px solid #D6322B;outline-offset:3px}
